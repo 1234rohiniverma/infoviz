@@ -1,5 +1,5 @@
 <html>
-
+<head>
 <script type="text/javascript" src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
 <script src="https://code.highcharts.com/highcharts.js"></script>
 <script src="https://code.highcharts.com/highcharts-3d.js"></script>
@@ -10,65 +10,63 @@
 <script type="text/javascript" src="chart2pie.js"></script>
 <link rel="stylesheet" type="text/css" href="chart2pie.css">
 <link rel="stylesheet" type="text/css" href="dashboard.css">
-    
+</head>
+<body>
+
     <nav class="navbar navbar-expand-custom navbar-mainbg">
-        <a class="navbar-brand navbar-logo" href="#">Migration Statistics</a>
-        <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars text-white"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <div class="hori-selector">
-                    <div class="left"></div>
-                    <div class="right"></div>
-                </div>
-                <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0)"><i class="fas fa-tachometer-alt"></i>Migration</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="mainchart.html"><i class="fas fa-house-user"></i>World</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="cw2indian2019.html"><i class="far fa-clone"></i>OECD</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="canadamap.html"><i class="far fa-calendar-alt"></i>Canada</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="chart2pie.html"><i class="far fa-chart-bar"></i>UK</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="emigration.html"><i class="far fa-copy"></i>Emigration</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="population.html"><i class="far fa-copy"></i>Population</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="unemployed.html"><i class="far fa-copy"></i>Unemployed</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="chart4employmentmap.html"><i class="far fa-copy"></i>Emmap</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="chart2revised.html"><i class="far fa-copy"></i>Employment</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="chart3heatmap.html"><i class="far fa-copy"></i>Sectors</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="chartdrill.html"><i class="far fa-copy"></i>Occupations</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="chartsalaryarea.html"><i class="far fa-copy"></i>Salary</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+               <a class="navbar-brand navbar-logo" href="dashboard.html"> Migration Statistics </a>
+               
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                   <div class="hori-selector">
+                       <div class="left"></div>
+                       <div class="right"></div>
+                   </div>
+                   <ul class="header-nav navbar-nav ml-auto">
+                       <li class="nav-item">
+                           <a class="nav-link" href="mainchart.html">World</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" href="cw2indian2019.html">OECD</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" href="canadamap.html">Canada</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link active" href="chart2pie.html">UK</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" href="emigration.html">Emigration</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" href="population.html">Population</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" href="unemployed.html">Unemployed</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" href="chart4employmentmap.html">Emmap</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" href="chart2revised.html">Employment</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" href="chart3heatmap.html">Sectors</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" href="chartdrill.html">Occupations</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" href="chartsalaryarea.html">Salary</a>
+                       </li>
+                   </ul>
+               </div>
+           </nav>
 	
 
 <figure class="highcharts-figure">
     <div id="container"></div>
-    <p class="highcharts-description">
+    <p class="highcharts-description" style="text-align:center;">
         Chart demonstrating the percentage of population coming to UK over the year ended by 2021 for various reasons.
     </p>
 </figure>
+</body>  

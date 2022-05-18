@@ -13,9 +13,17 @@ i {
 	margin-right: 10px;
 }
 /*----------bootstrap-navbar-css------------*/
+.header-nav {
+	padding-top: 2rem;
+}
+
 .navbar-logo {
 	padding: 15px;
-	color: #fff;
+    color: #fff;
+    font-weight: 900;
+    font-size: 1.5rem;
+    font-family: emoji;
+    text-decoration: none;
 }
 .navbar-mainbg {
 	background-color: #5161ce;
@@ -26,8 +34,7 @@ i {
 	position: relative;
 }
 #navbarSupportedContent ul {
-	padding: 0px;
-	margin: 0px;
+    padding: 1rem;
 }
 #navbarSupportedContent ul li a i {
 	margin-right: 10px;
@@ -50,6 +57,13 @@ i {
 	color: #5161ce;
 	background-color: transparent;
 	transition: all 0.7s;
+}
+
+#navbarSupportedContent > ul > li > a.active {
+	color: #fff;
+    transition: all 0.7s;
+    background: #111;
+    border-radius: 1rem;
 }
 #navbarSupportedContent a:not(:only-child):after {
 	content: "\f105";
