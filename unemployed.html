@@ -1,0 +1,79 @@
+
+
+<html>
+<head>
+    <script type="text/javascript" src='http://code.jquery.com/jquery-1.12.0.min.js'></script>
+
+
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+<script type="text/javascript" src="unemployment.js"></script>
+    <link rel="stylesheet" type="text/css" href="unemployed.css">
+    <link rel="stylesheet" type="text/css" href="dashboard.css">
+    
+    <nav class="navbar navbar-expand-custom navbar-mainbg">
+        <a class="navbar-brand navbar-logo" href="#">Migration Statistics</a>
+        <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars text-white"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <div class="hori-selector">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)"><i class="fas fa-tachometer-alt"></i>Migration</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="mainchart.html"><i class="fas fa-house-user"></i>World</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cw2indian2019.html"><i class="far fa-clone"></i>OECD</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="canadamap.html"><i class="far fa-calendar-alt"></i>Canada</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="chart2pie.html"><i class="far fa-chart-bar"></i>UK</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="emigration.html"><i class="far fa-copy"></i>Emigration</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="population.html"><i class="far fa-copy"></i>Population</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="unemployed.html"><i class="far fa-copy"></i>Unemployed</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="chart4employmentmap.html"><i class="far fa-copy"></i>Emmap</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="chart2revised.html"><i class="far fa-copy"></i>Employment</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="chart3heatmap.html"><i class="far fa-copy"></i>Sectors</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="chartdrill.html"><i class="far fa-copy"></i>Occupations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="chartsalaryarea.html"><i class="far fa-copy"></i>Salary</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+<figure class="highcharts-figure">
+    <div id="container"></div>
+    <p class="highcharts-description">
+        The chart depicts the percentage of population which is unemployed with advanced education.
+    </p>
+</figure>
+
